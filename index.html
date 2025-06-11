@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookGrace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <center><h1>BookGrace</h1></center>
+        
+
+    </div>
+    <div class="container">
+
+        <div class="book-container">
+            <h2>BookGrace</h2>
+            <h5>Kanishka</h5>
+            <p>
+                <center>Welcome buddy!.. just explore it..
+                You can add your books here.</center>
+            </p>
+            <button onclick="dlt(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input"> <br>
+            <input type="text" placeholder="Book Author" id="book-author-input"> <br>
+            <textarea placeholder="Short Description" id="book-description-input"></textarea> <br>
+            <button id="add-book">ADD</button> 
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
